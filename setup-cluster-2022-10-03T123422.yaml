@@ -1,0 +1,14 @@
+license: BGEzN2ZjZjA0YWZkMDRjODA4NTIxZjg0Yzc3YzlmOTZkAAAAAAAAAAAEAAAAAAAAACgwNAIYZh/u0u3/fHEQvduNJR4vahNJIcL0r3MUAhg5kB8/uo9pSjBpC6VqbD8XTrh83Cudj38AAA==/h
+high_availability: false
+optimize: false
+memsql_server_file_path: /home/users/downloads
+hosts:
+  - hostname: 78031ff89c18
+    nodes:
+      - role: Master
+        config:
+          port: 3306
+      - role: Leaf
+        config:
+          port: 3307
+    localhost: true
